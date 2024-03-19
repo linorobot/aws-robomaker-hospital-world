@@ -23,7 +23,7 @@ import io
 from lxml import etree as ET
 import os.path
 
-FUEL_URI = 'https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models'
+FUEL_URI = 'https://app.gazebosim.org/OpenRobotics/fuel/models'
 WAIT_BETWEEN_DOWNLOADS_IN_SECONDS = 5
 
 class FuelModelUtility:
